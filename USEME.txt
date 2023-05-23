@@ -1,0 +1,49 @@
+New-Project:
+- click the menu in the top right
+- click the new project
+-wait for the popup and fill in x and y coordinates when prompted
+- hit enter
+
+Load-project:
+- Click the menu in the top right
+- click the load project
+- go through the file chooser to load a project
+
+Save-project:
+- click the menu in the top right
+- click Save As Project button 
+- use the File chooser to click a location to save your image
+
+Save-Image:
+- click the menu in the top right
+- click Save button 
+- use the File chooser to click a location to save your image
+
+layer:
+-click the layer button
+-click one of the present layers to change the layer you are currently working on
+
+Set-filter:
+-Click one of the 4 buttons on the bottom right labeled component, darkness, brightness, blending
+-After that you will see a popup with three options, for component they will be blue, red, green click one of those to change the layer you are currently on to that filter and apply it to the composite image. 
+- For darkness or brightness your options will be luma, intensity, value, follow the same process 
+- For blending you can click either multiply, difference, or screen and follow the same process
+
+Add-layer:
+-Select the add layer button on the bottom right
+-Fill out the name with anything you'd like 
+-Use the drop down to click a type of filter you want it to be 
+-Hit enter 
+
+Add-image-to-layer:
+-selected the menu button 
+-select the add-image-to-layer button 
+- use the file chooser to click a file for the image
+- choose the offset when prompted after hitting enter on the file 
+Note: this will add the image to the layer you hav currently selected using the layer button 
+
+Quit:
+- press the X button in top left or the quit button after clicking menu 
+
+
+--A6 nothing new was added to the GUI functionality

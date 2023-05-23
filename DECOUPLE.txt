@@ -1,0 +1,22 @@
+In order to make the controller compile the only things that we need to send along are the interface files for each instance in the project. This includes the interface file for the EditorModel which is implemented and or extended by the abstract model class and project model class, and everything below it so the interface for Layers, Images, Pixels as well as the IJFrame interface and then of course the IGUIController Interface as wells the GUIController of course. 
+
+Editor Model Interface: 
+It is necessary for this file to be present because we are attempting to create a controller which requires information to and from the model so that it can interface and do what the user wants. 
+
+---
+Layer Interface, 
+Image Interface,
+Pixel Interface:
+----
+The above interfaces are necessary only if we are also trying to compile the view and they are all necessary because the view requires information from them and the model so that it can paint thigns that are one of the above options. The wording in the assignment is asking for the view Decoupling but that was last assignment so I am writing about controller decoupling and adding this just in case. 
+
+Frame interface:
+Just like the  EditModel Interface this interface is necessary because it is one of the pieces out our MVC model. We need to consider that the goal of the GUI into print something to the User and the only way to do that is to be have some methodology of a view. The cotronller we have implemented requires the existence of the interface for the view so that it knows what it is and isn't capable of and what it can send to the view for the user to see.
+
+
+GuiController Interface: 
+This interface is probably the most straightforward as it is necessary because it only exists for the purpose of being the interface for the GUIController file we are attempting to decouple. This interface allows any programmer to go in and create a new instance of a Controller that might not be for a JSwing GUI or whatever the reason may be. It is required here so that IntelliJ and Java understand what we need the controller to be able to do.
+
+
+
+

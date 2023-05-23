@@ -1,0 +1,7 @@
+new-project 2 2
+add-layer l1 add-layer l2 add-layer l3 add-layer l4 add-layer l5
+add-image-to-layer l1 res/offsetOrange.ppm 0 0 add-image-to-layer l2 res/image1.png 0 0
+add-image-to-layer l3 res/test1.jpeg 0 0 add-image-to-layer l4 res/trueGreen.ppm 0 0
+add-image-to-layer l5 res/Pred.png 0 0
+set-filter l1 red-component set-filter l2 darken-luma set-filter l3 screen set-filter l4 normal set-filter l5 brighten-intensity
+save-image res/finalImage.jpeg
