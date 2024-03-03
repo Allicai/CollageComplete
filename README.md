@@ -6,9 +6,11 @@ Image Processor
 
 
 ----------------------------Description------------------------------
+
 The program available is a simple image processor that allows the user to load an image and do one of the following features. This processors accepts any format of image including but not limited to a ppm, jpeg, png.  By loading this program you will have the opportunity to load a project in the form of a text file or create a new project. You will then have the ability to load and edit a series of images by applying filters that will either directly affect them or will affect them with information from previous layers. It is important to note that this particular program allows for you to compile and compact a ton of differnet layers into a single compressed image using a formula which takes into account the layer below it for its pixel values. Whether you are running this program with the text UI or the GUI this program includes the same features which are listed both below and in the use me. These features allows the user to create or load a project, add images to layers, add layers or apply one of the following filter; blend, screen, multiply, red, green, blue, brighten (three options), darken (three options). This program does not allow you to crop images or add image thats are outside the parameters of the size of the project. 
 
 ---------------------------Dependencies------------------------------
+
 Java 11
 JUnit 4 or higher
 
