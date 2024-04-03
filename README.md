@@ -1,7 +1,4 @@
 # CollageComplete
-
-Worked on by me and my partner in my Object Oriented Designing Class at Northeastern.
-
 Image Processor
 
 
